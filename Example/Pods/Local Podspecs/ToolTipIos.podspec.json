@@ -1,0 +1,19 @@
+{
+  "name": "ToolTipIos",
+  "version": "1.0.0",
+  "summary": "its a toolTip pod",
+  "description": "its a toolTip pod, its a toolTip pod",
+  "homepage": "https://github.com/Priya0nka/ToolTipIos",
+  "license": "MIT",
+  "authors": {
+    "Priyanka": "email@address.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/Priya0nka/ToolTipIos.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "ToolTipIos/**/*.{h,m}"
+}

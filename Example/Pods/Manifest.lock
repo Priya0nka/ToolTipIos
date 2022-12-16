@@ -1,0 +1,16 @@
+PODS:
+  - ToolTipIos (1.0.0)
+
+DEPENDENCIES:
+  - ToolTipIos (from `../ToolTipIos/`)
+
+EXTERNAL SOURCES:
+  ToolTipIos:
+    :path: "../ToolTipIos/"
+
+SPEC CHECKSUMS:
+  ToolTipIos: 5efeaf78c1a1c8741701d9c15b065e31c9110eb7
+
+PODFILE CHECKSUM: 838ce43a5e52011c105f8b428ed6a332dd886104
+
+COCOAPODS: 1.11.3
