@@ -7,30 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EC74B0294AE652008D0E23 /* ToolTipIos.docc in Sources */ = {isa = PBXBuildFile; fileRef = 04EC74AF294AE652008D0E23 /* ToolTipIos.docc */; };
-		04EC74B6294AE652008D0E23 /* ToolTipIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EC74AB294AE652008D0E23 /* ToolTipIos.framework */; };
-		04EC74BB294AE652008D0E23 /* ToolTipIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC74BA294AE652008D0E23 /* ToolTipIosTests.swift */; };
+		04EC74B0294AE652008D0E23 /* ToolTipIos.docc in Resources */ = {isa = PBXBuildFile; fileRef = 04EC74AF294AE652008D0E23 /* ToolTipIos.docc */; };
 		04EC74BC294AE652008D0E23 /* ToolTipIos.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EC74AE294AE652008D0E23 /* ToolTipIos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EC74C7294AE670008D0E23 /* ToolTip.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EC74C5294AE66F008D0E23 /* ToolTip.xib */; };
-		04EC74C8294AE670008D0E23 /* ToolTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC74C6294AE670008D0E23 /* ToolTip.swift */; };
+		04EC74C8294AE670008D0E23 /* ToolTip.swift in Resources */ = {isa = PBXBuildFile; fileRef = 04EC74C6294AE670008D0E23 /* ToolTip.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04EC74B7294AE652008D0E23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04EC74A2294AE651008D0E23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04EC74AA294AE651008D0E23;
-			remoteInfo = ToolTipIos;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04EC74AB294AE652008D0E23 /* ToolTipIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToolTipIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EC74AE294AE652008D0E23 /* ToolTipIos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolTipIos.h; sourceTree = "<group>"; };
 		04EC74AF294AE652008D0E23 /* ToolTipIos.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ToolTipIos.docc; sourceTree = "<group>"; };
-		04EC74B5294AE652008D0E23 /* ToolTipIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolTipIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04EC74BA294AE652008D0E23 /* ToolTipIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipIosTests.swift; sourceTree = "<group>"; };
 		04EC74C5294AE66F008D0E23 /* ToolTip.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolTip.xib; sourceTree = "<group>"; };
 		04EC74C6294AE670008D0E23 /* ToolTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,14 +29,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04EC74B2294AE652008D0E23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04EC74B6294AE652008D0E23 /* ToolTipIos.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,16 +38,15 @@
 				04EC74AD294AE652008D0E23 /* ToolTipIos */,
 				04EC74C6294AE670008D0E23 /* ToolTip.swift */,
 				04EC74C5294AE66F008D0E23 /* ToolTip.xib */,
-				04EC74B9294AE652008D0E23 /* ToolTipIosTests */,
 				04EC74AC294AE652008D0E23 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		04EC74AC294AE652008D0E23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				04EC74AB294AE652008D0E23 /* ToolTipIos.framework */,
-				04EC74B5294AE652008D0E23 /* ToolTipIosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +58,6 @@
 				04EC74AF294AE652008D0E23 /* ToolTipIos.docc */,
 			);
 			path = ToolTipIos;
-			sourceTree = "<group>";
-		};
-		04EC74B9294AE652008D0E23 /* ToolTipIosTests */ = {
-			isa = PBXGroup;
-			children = (
-				04EC74BA294AE652008D0E23 /* ToolTipIosTests.swift */,
-			);
-			path = ToolTipIosTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,9 +79,9 @@
 			buildConfigurationList = 04EC74BF294AE652008D0E23 /* Build configuration list for PBXNativeTarget "ToolTipIos" */;
 			buildPhases = (
 				04EC74A6294AE651008D0E23 /* Headers */,
-				04EC74A7294AE651008D0E23 /* Sources */,
 				04EC74A8294AE651008D0E23 /* Frameworks */,
-				04EC74A9294AE651008D0E23 /* Resources */,
+				048204C0294C98A1005CACA6 /* Resources */,
+				048204C1294C98D8005CACA6 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -122,24 +91,6 @@
 			productName = ToolTipIos;
 			productReference = 04EC74AB294AE652008D0E23 /* ToolTipIos.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		04EC74B4294AE652008D0E23 /* ToolTipIosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04EC74C2294AE652008D0E23 /* Build configuration list for PBXNativeTarget "ToolTipIosTests" */;
-			buildPhases = (
-				04EC74B1294AE652008D0E23 /* Sources */,
-				04EC74B2294AE652008D0E23 /* Frameworks */,
-				04EC74B3294AE652008D0E23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04EC74B8294AE652008D0E23 /* PBXTargetDependency */,
-			);
-			name = ToolTipIosTests;
-			productName = ToolTipIosTests;
-			productReference = 04EC74B5294AE652008D0E23 /* ToolTipIosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -152,9 +103,6 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					04EC74AA294AE651008D0E23 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					04EC74B4294AE652008D0E23 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -173,56 +121,32 @@
 			projectRoot = "";
 			targets = (
 				04EC74AA294AE651008D0E23 /* ToolTipIos */,
-				04EC74B4294AE652008D0E23 /* ToolTipIosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04EC74A9294AE651008D0E23 /* Resources */ = {
+		048204C0294C98A1005CACA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EC74B0294AE652008D0E23 /* ToolTipIos.docc in Resources */,
+				04EC74C8294AE670008D0E23 /* ToolTip.swift in Resources */,
 				04EC74C7294AE670008D0E23 /* ToolTip.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04EC74B3294AE652008D0E23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04EC74A7294AE651008D0E23 /* Sources */ = {
+		048204C1294C98D8005CACA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EC74B0294AE652008D0E23 /* ToolTipIos.docc in Sources */,
-				04EC74C8294AE670008D0E23 /* ToolTip.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04EC74B1294AE652008D0E23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04EC74BB294AE652008D0E23 /* ToolTipIosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04EC74B8294AE652008D0E23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04EC74AA294AE651008D0E23 /* ToolTipIos */;
-			targetProxy = 04EC74B7294AE652008D0E23 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04EC74BD294AE652008D0E23 /* Debug */ = {
@@ -401,38 +325,6 @@
 			};
 			name = Release;
 		};
-		04EC74C3294AE652008D0E23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ToolTipIosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		04EC74C4294AE652008D0E23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ToolTipIosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,15 +342,6 @@
 			buildConfigurations = (
 				04EC74C0294AE652008D0E23 /* Debug */,
 				04EC74C1294AE652008D0E23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04EC74C2294AE652008D0E23 /* Build configuration list for PBXNativeTarget "ToolTipIosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04EC74C3294AE652008D0E23 /* Debug */,
-				04EC74C4294AE652008D0E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
